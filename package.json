@@ -1,11 +1,11 @@
 {
-  "name": "tiny",
+  "name": "tinify",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tiny": "gulp tiny"
+    "tinify": "gulp tinify"
   },
   "author": "",
   "license": "ISC",

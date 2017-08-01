@@ -4,7 +4,7 @@ var fs = require('fs');
 
 tinify.key = 'fad3NFNTvFHBio8CbmJeeO2rv3dQGxgD';
 
-gulp.task('tiny', function () {
+gulp.task('tinify', function () {
     var images = 'images';
     var fileSplit;
     var source;
@@ -16,4 +16,4 @@ gulp.task('tiny', function () {
     });
 });
 
-gulp.task('default', [ 'tiny' ]);
+gulp.task('default', [ 'tinify' ]);
